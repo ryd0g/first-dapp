@@ -1,11 +1,9 @@
-//SPDX-License-Identifier: UNLICENSED
-
-// Solidity files have to start with this pragma.
+// SPDX-License-Identifier: MIT
 // It will be used by the Solidity compiler to validate its version.
-pragma solidity ^0.7.0;
+pragma solidity ^0.8.9;
 
 // We import this library to be able to use console.log
-import "hardhat/console.sol";
+import "../node_modules/hardhat/console.sol";
 
 
 // This is the main building block for smart contracts.
